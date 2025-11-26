@@ -165,61 +165,61 @@ variable "db_instance_type" {
 variable "first_name" {
     description = "First name"
     type = string
-    default = "Gouled"
+    default = "First Name"
 
 }
 
 variable "last_name" {
     description = "Last name"
     type = string
-    default = "Mihile"
+    default = "xxxxxxxxx"
 
 }
 
 variable "address" {
     description = "Address"
     type = string
-    default = "3926 s 198th street"
+    default = "xxxxxxxxxxxxxxx"
 
 }
 
 variable "city" {
     description = "city"
     type = string
-    default = "Seatac"
+    default = "xxxxxxx"
 
 }
 
 variable "state" {
     description = "state"
     type = string
-    default = "Washington"
+    default = "xxxxxxxxx"
 
 }
 
 variable "code" {
     description = "Country Code"
     type = string
-    default= "US"
+    default= "xx"
 
 }
 
 variable "zip_code" {
     description = "zip code"
     type = string
-    default = "98188"
+    default = "xxxx"
 
 }
 
 variable "number" {
     description = "Phone number"
     type = string
-    default = "2066653307"
+    default = "xxxxxxxxxx"
 }
 
 variable "email" {
     description = "email"
     type = string
-    default = "gmihile2@gmail.com"
+    default = "xxxxxxxxxxxx"
 
 }
