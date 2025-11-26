@@ -200,7 +200,7 @@ variable "state" {
 variable "code" {
     description = "Country Code"
     type = string
-    default= "xx"
+    default= "US"
 
 }
 

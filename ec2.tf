@@ -107,7 +107,8 @@ dimensions = {
 }
 
 alarm_actions = [
-    aws_autoscaling_policy.aws_asg_policy_up.arn
+    aws_autoscaling_policy.aws_asg_policy_up.arn,
+    aws_sns_topic.sns_alert.arn
 ]
 }
 
